@@ -1,0 +1,20 @@
+body {background-color:#FFF;color:#004
+}
+div{
+	box-shadow:0em 0em 2em 2em #855;
+	width:80%;
+	margin:3em auto;
+}
+article:first-of-type {
+	box-shadow:inset 1em 1em 3em 0em #558;
+}
+article~article {
+	box-shadow:inset -1em 1em 3em -0.3em #585,inset 1em -1em 3em -0.3em #858,0 0 1em 0.3em #F00,
+	0 0 1em 0.6em #F80,0 0 1em 1.3em #FF0,0 0 1em 1.4em #0F0,
+	0 0 1em 1.7em #0FF,0 0 1em 2.4em #00F,0 0 1em 2.7em #F0F;
+	position:fixed;
+	top:35%;
+	right:35%;
+	width:40%;
+	background-color:white;
+}
